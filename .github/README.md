@@ -101,9 +101,9 @@ This part of the repo should make it easy for users to get in touch with the tea
 Any other information that you’d like to share with users can go in the Wiki section of your repository.
 
 
- 
-  
-  
-  
-
-Your README is more than just a set of instructions. It’s also a place to talk about your goals, product vision, and roadmap. If people are overly focused on debating the merit of a particular feature, it may help to revisit your README and talk about the higher vision of your project. Focusing on your README also depersonalizes the conversation, so you can have a constructive discussion.
+.
+. 
+. 
+.
+.
+The README is more than just a set of instructions. It’s also a place to talk about your goals, product vision, and roadmap. If people are overly focused on debating the merit of a particular feature, it may help to revisit your README and talk about the higher vision of your project. Focusing on your README also depersonalizes the conversation, so you can have a constructive discussion.
