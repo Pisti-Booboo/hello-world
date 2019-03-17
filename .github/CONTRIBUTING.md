@@ -2,7 +2,11 @@
 
 :tada::+1: Glad you taking the time to  read this, because we need help for this project. :+1::tada:
 
-The following is the guidelines to communicate how people should contribute to this project.
+we appreciate all of the users that catch bugs, make performance improvements, and help with documentation.
+
+Every contribution is meaningful, so thank you for participating. 
+
+That being said, here are few guidelines to communicate how people should contribute to this project.
 Mostly guidelines, not rules.
 Use your best judgment, and feel free to propose changes for this document.
  
