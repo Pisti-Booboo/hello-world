@@ -30,7 +30,7 @@ In the case of a confirmed violation, project maintainers are expected to meet t
 women, non-binary people, gay, lesbian, queer, and/or transgender people, people of color, and people of different religious backgrounds should be afforded the same rights and privileges as everyone else.
 
 
-Women and men of all backgrounds, ethnicities, and races can have competence and interest in software development and deserve equal access to opportunities in open source and tech.
+Women and men of all backgrounds, ethnicities, and races and and other marginalized populations. can have competence and interest in software development and deserve equal access to opportunities in open source and tech.
 
 
 
