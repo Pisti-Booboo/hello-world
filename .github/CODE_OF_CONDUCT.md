@@ -16,6 +16,11 @@ Information published to a public does not fall under the category of private in
 
 
 
+we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+
+
+
+
 Why should accommodate to marginalized people?
 It is not about being accommodating, it’s about making all potential contributors feel welcome.
 
