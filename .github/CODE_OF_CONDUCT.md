@@ -6,7 +6,7 @@ and they have power to eject any contributor, for any(or no) reason at all...
 But the symbiosis partnership between contributors and maintainers make such abuses of power less acceptable and common. 
 And if you don’t trust project maintainers to act in a just and fair way, you probably should not participate in this project.
 
-
+ any unproductive addon will be deleted.
 
 Information published to a public does not fall under the category of private information.
 
