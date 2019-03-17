@@ -13,8 +13,6 @@ Use your best judgment, and feel free to propose changes for this document.
 
 [Code of Conduct](#code-of-conduct)
 
-[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
-
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
   * [Atom and Packages](#atom-and-packages)
   * [Atom Design Decisions](#design-decisions)
@@ -37,7 +35,7 @@ Use your best judgment, and feel free to propose changes for this document.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [atom@github.com](mailto:atom@github.com).
+This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. You can report unacceptable behavior to [atom@github.com](mailto:atom@github.com).
 
 ## What should I know before I get started?
 
