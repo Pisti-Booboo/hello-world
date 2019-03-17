@@ -3,7 +3,8 @@
 :tada::+1: Glad you taking the time to  read this, because we need help for this project. :+1::tada:
 
 The following is the guidelines to communicate how people should contribute to this project.
-Mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+Mostly guidelines, not rules.
+Use your best judgment, and feel free to propose changes for this document.
  
  
  
