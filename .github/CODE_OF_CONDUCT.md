@@ -1,5 +1,40 @@
 # Contributor Covenant Code of Conduct
 
+Project maintainers are not supposed to be “social judges”
+but they are the arbiters of the project,
+and they have power to eject any contributor, for any(or no) reason at all...
+But the symbiosis partnership between contributors and maintainers make such abuses of power less acceptable and common. 
+And if you don’t trust project maintainers to act in a just and fair way, you probably should not participate in this project.
+
+
+
+Information published to a public does not fall under the category of private information.
+
+
+ explicitly lists protected classes if just for reminding people to give them appropriate consideration, and assuring people in those classes that they are welcome. However, this is not an invitation for rules lawyers to seek loopholes, or to discriminate against others or make people feel unwelcome based on criteria not listed here. (With the notable caveat that those who discriminate or make others feel unwelcome are themselves not welcome.)
+
+
+
+
+Why should accommodate to marginalized people?
+It is not about being accommodating, it’s about making all potential contributors feel welcome.
+
+When I code, I just see the code, not the person, so why should I care about this code of conduct? Can’t minorities keep their minority-status to themselves and focus on the code?
+Research shows that the two most important factors in successful teams are diversity (“Why Diverse Teams Are Smarter”, Harvard Business Review) and psychological safety (“Foster Psychological Safety”, re:Work). If a potential contributor has to hide some portion of their identity in order to avoid explicit or implicit bias, they may not feel safe contributing to the project. Each person should feel welcomed and accepted and free to bring their whole selves to their work. What’s more, hiding behind an anonymous account, a gender- or racial-neutral pseudonym, or otherwise hiding one’s true identity can have a materially negative effect on building the kind of reputation and open source track record that many employers look for in potential hires.
+
+It’s about establishing a minimal level of civil and professional collaboration. 
+
+
+In the case of a confirmed violation, project maintainers are expected to meet the violation with a consequence that is proportional to the offense and to work with the offender to prevent future violations. 
+
+women, non-binary people, gay, lesbian, queer, and/or transgender people, people of color, and people of different religious backgrounds should be afforded the same rights and privileges as everyone else.
+
+
+Women and men of all backgrounds, ethnicities, and races can have competence and interest in software development and deserve equal access to opportunities in open source and tech.
+
+
+
+
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
@@ -44,6 +79,8 @@ permanently any contributor for other behaviors that they deem inappropriate,
 threatening, offensive, or harmful.
 
 ## Scope
+
+Contributor Covenant specifically states that behavior, actions, and communications outside the scope of the project cannot be considered violations of the code of conduct,
 
 This Code of Conduct applies both within project spaces and in public spaces
 when an individual is representing the project or its community. Examples of
