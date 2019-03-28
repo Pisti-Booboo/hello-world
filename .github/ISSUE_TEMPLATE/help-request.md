@@ -2,7 +2,7 @@
 name: Help request
 about: Suggest an help for this project
 title: titre
-labels: help wanted, good first issue
+labels: good first issue, help wanted
 assignees: ''
 
 ---
