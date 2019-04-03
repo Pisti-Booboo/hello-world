@@ -1,6 +1,7 @@
 # hello-world
 The Hello World project is a time-honored tradition in computer programming. It is a simple exercise that gets you started when learning something new. 
 
+[see_issue](ISSUE_TEMPLATE/help-request.md)
 
 ## I don't want to read this whole thing I just have a question!!!
 
