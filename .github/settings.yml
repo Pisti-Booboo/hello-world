@@ -1,0 +1,35 @@
+### These settings are synced to GitHub by https://probot.github.io/apps/settings/
+### read how to config: https://github.com/probot/settings/blob/master/README.md
+### And see https://developer.github.com/v3/repos/#edit for all available settings.
+
+repository: 
+
+   ## if true squash all the commits in pull requests for finaly merge only one commit on head of the branch .
+   allow_squash_merge: false
+   ## allow or not to create a new branch for merging commits in the pull request on the head of the branch.
+   allow_merge_commit: false
+   ## rebase-merging keep all the commits of the pull requests and add them on the branch head.
+   allow_rebase_merge: true
+   
+
+   ### Features
+   
+   ## `true` to integrate the 'task tracking' or `false` to disable it.
+   has_issues: true
+
+   ## `true` for enable or `false` to disable the 'projects board'.
+   ## (If projects are disabled for the organization, passing `true` will cause an API error.)
+   has_projects: false
+   ## All of This for Only That... is my thinking when i see the utility of the 'projects board'.
+   ## Maybe with required approving review on a pull request 'projects board' will appear more usefull.
+   ## for now lets just use milestones and personal 'projects boards'
+
+   ## `true` to enable the wiki or `false` to disable it.
+   has_wiki: false
+   ## i dont want spend contributions efforts in gh-page AND wiki documentation.
+   ## i prefere we focus on just one type of documentation.
+   ## gh-page seems easier to integrate in realases for offline documentation.
+
+   ## `true` to enable downloads for this repository, `false` to disable them.
+   has_downloads: false
+   
