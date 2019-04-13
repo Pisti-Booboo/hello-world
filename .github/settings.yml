@@ -33,3 +33,21 @@ repository:
    ## `true` to enable downloads for this repository, `false` to disable them.
    has_downloads: false
    
+
+
+## define Labels for Issues and Pull Requests
+labels:
+   
+   - name: troubleX
+      color: CC0000
+      description: An issue with the system
+      
+   - name: featuredX
+      color: 336699
+      description: New functionality 🐛.
+      
+   - name: bugzyX
+      color: CC0000
+      description: An issue somewhere.
+      
+      
