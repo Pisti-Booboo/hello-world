@@ -39,15 +39,15 @@ repository:
 labels:
    
    - name: troubleX
-      color: CC0000
-      description: An issue with the system
-      
+     color: CC0000
+     description: An issue with the system
+     
    - name: featuredX
-      color: 336699
-      description: New functionality 🐛.
-      
+     color: 336699
+     description: New functionality 🐛.
+     
    - name: bugzyX
-      color: CC0000
-      description: An issue somewhere.
-      
+     color: CC0000
+     description: An issue somewhere.
+     
       
