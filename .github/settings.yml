@@ -162,7 +162,6 @@ labels:
  - name: device:smartphone
    color: 59d683
    description: pocket computers, designed to be used in hand with main function of phone.
-
    
  - name: os:linux
    color: c7def8
