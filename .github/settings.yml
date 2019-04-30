@@ -76,7 +76,7 @@ labels:
  - name: irrelevant
    color: fbca04
    description: unrelated improper inappropriate incongruous inept inapt.
-
+   
  - name: newfeature-type
    color: 009800
    description: asking for a new functionality to be added. 
@@ -92,7 +92,7 @@ labels:
  - name: bug-type
    color: b71c1c
    description: about unintended behaviours that need correction.
-
+   
  - name: high-priority
    color: b60205
    description: important critical Emergency, require urgent action.
@@ -102,7 +102,7 @@ labels:
  - name: low-priority
    color: f9d0c4
    description:  trivial and minor topics, will be proced if nothing more serious.
-
+   
  - name: novice-user
    color: fc97b2
    description: issues made by beginners contributor
@@ -112,7 +112,7 @@ labels:
  - name: expert-user
    color: 7057ff
    description: issues made by high experienced contributor
-
+   
  - name: english-language
    color: 8ed9e2
    description: software language in use
@@ -137,7 +137,7 @@ labels:
  - name: chinese-language
    color: 8ed9e2
    description: software language in use
-
+   
  - name: 2.4.3-version
    color: 8ed9e2
    description: software Version concerned
@@ -147,7 +147,7 @@ labels:
  - name: beta-version
    color: 8ed9e2
    description: software Version concerned
-
+   
  - name: laptop-device
    color: fad8c7
    description: computers with keyboard suitable for use while traveling.(notebook)
@@ -163,7 +163,7 @@ labels:
  - name: other-device
    color: e99695
    description: mainframes,supercomputer,modem/router or any other computer device
-
+   
  - name: linux-os
    color: c7def8
    description: occur on linux.
@@ -179,7 +179,7 @@ labels:
  - name: i-os
    color: c7def8
    description: using iOS software platform
-
+   
  - name: behavior-inquiry
    color: ff4400
    description: asking for better understanding of fonctionality
@@ -189,7 +189,7 @@ labels:
  - name: howtodo-inquiry
    color: ff4400
    description: request help for a proper use
-
+   
   - name: crash-trouble
    color: e11d21inquiry
    description: reports premature software terminating.
@@ -211,7 +211,7 @@ labels:
  - name: security-trouble
    color: e6e6e6
    description: unwanted expose of privacy or unauthorized privileges access.
-
+   
  - name: option-request
    color: e6e6e6
    description: argunents for including a new option in the settings
@@ -227,7 +227,7 @@ labels:
  - name: builtin-request
    color: e6e6e6
    description: idea of new fonctionality integration
-
+   
  - name: remove-sugestion
    color: e6e6e6
    description: suggest to delete an useless exiting feature
@@ -240,7 +240,7 @@ labels:
  - name: improve-sugestion
    color: e6e6e6
    description: suggest to enhance performance of an exiting feature
-
+   
  - name: statistics-report
    color: e6e6e6
    description: submit result of statistics
@@ -256,7 +256,7 @@ labels:
  - name: exam-report
    color: f4f19c
    description: submit result of examination
-
+   
  - name: about-language
    color: cc317c
    description: related to localization and translation (i18n)
@@ -362,73 +362,3 @@ labels:
  - name: about-repository
    color: e6e6e6
    description: concerne repository organisation and management.
-
-#  - name: first-timers-only
-#    ## include the old name to rename an existing label
-#    oldname: Help Wanted
-
-
-## define milestones for Issues and Pull Requests
-milestones:
- - title: beta-release
-   description: stage required for the the next release
-   ## state of the milestone can be `open` or `close`
-   state: open
-
-
-## give specific users access to this repository.
-#collaborators:
-#    ## Note: Only valid on organization-owned repositories.
-#    ## The permission to grant the collaborator. Can be one of:
-#    ## * `pull` - can pull, but not push to or administer this repository.
-#    ## * `push` - can pull and push, but not administer this repository.
-#    ## * `admin` - can pull,push and administer this repository.
-#  - username: hubot
-#    permission: pull
-
-## NOTE: The APIs needed for teams are not supported yet by GitHub Apps
-## https://developer.github.com/v3/apps/available-endpoints/
-#teams:
-#  - name: core
-#    permission: admin
-   
-#  - name: docs
-#    permission: push
-
-## branches
-#branches:
-#  - name: master
-#    ## https://developer.github.com/v3/repos/branches/#update-branch-protection
-#    ## Branch Protection settings. Set to null to disable
-#    protection:
-#      ## Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
-#      ## cannot have review approval on my own pull requests, so cannot use it if im working alone. 
-#      ## or this restriction can be pass by unable the option:'admin also' 
-#      ## in this case all owner/contributors can force any pull request approval without any review.
-#      ## so, for make pull request aproval by review avalable, need at least 2 contributors.
-#      required_pull_request_reviews:
-#        ## The number of approvals required. (1-6)
-#        required_approving_review_count: 1
-#        ## Dismiss approved reviews automatically when a new commit is pushed.
-#        dismiss_stale_reviews: true
-#        ## Blocks merge until code owners have reviewed.
-#        require_code_owner_reviews: true
-#        ## Specify which users and teams can dismiss pull request reviews.
-#        ## Pass an empty dismissal_restrictions object to disable.
-#        ## User and team dismissal_restrictions are only available for organization-owned repositories. 
-##       ## Omit this parameter for personal repositories.
-#        dismissal_restrictions:
-#          users: []
-#          teams: []
-#      ## Required. Require status checks to pass before merging. Set to null to disable
-#      required_status_checks:
-#        ## Required. Require branches to be up to date before merging.
-#        strict: true
-#        ## Required. The list of status checks to require in order to merge into this branch
-#        contexts: []
-#      ## Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
-#      enforce_admins: true
-#      ## Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
-#      restrictions:
-#        users: []
-#        teams: []
