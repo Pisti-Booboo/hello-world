@@ -190,7 +190,7 @@ labels:
    color: ff4400
    description: request help for a proper use
    
-  - name: trouble:crash
+ - name: trouble:crash
    color: e11d21inquiry
    description: reports premature software terminating.
  - name: trouble:freezing
