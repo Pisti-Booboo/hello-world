@@ -116,67 +116,67 @@ labels:
    description: issues made by high experie-languagenced contributor
    
  - name: language:english
-   color: 8ed9e2
+   color: 39ffcc
    description: software language in use
  - name: language:french
-   color: 8ed9e2
+   color: 39ffcc
    description: software language in use
  - name: language:italian
-   color: 8ed9e2
+   color: 39ffcc
    description: software language in use
  - name: language:portuguese
-   color: 8ed9e2
+   color: 39ffcc
    description: software language in use
  - name: language:russian
-   color: 8ed9e2
+   color: 39ffcc
    description: software language in use
  - name: language:spanish
-   color: 8ed9e2
+   color: 39ffcc
    description: software language in use
  - name: language:arabic
-   color: 8ed9e2
+   color: 39ffcc
    description: software language in use
  - name: language:chinese
-   color: 8ed9e2
+   color: 39ffcc
    description: software language in use
    
  - name: version:2.4.3
-   color: fad8c7
+   color: 01ff70
    description: software Version concerned
  - name: version:1.2.3
-   color: fad8c7
+   color: 01ff70
    description: software Version concerned
  - name: version:beta
-   color: fad8c7
+   color: 01ff70
    description: software Version concerned
    
  - name: device:laptop
-   color: 59d683
+   color: 3d9970
    description: computers with keyboard suitable for use while traveling.(notebook)
  - name: device:desktop
-   color: 59d683
+   color: 3d9970
    description:  not portable computers, consists of seperate case,monitor,keyboard,mouse.
  - name: device:tablet
-   color: 59d683
+   color: 3d9970
    description: portable touchscreen(no keyboard) computers.
  - name: device:smartphone
-   color: 59d683
+   color: 3d9970
    description: pocket computers, designed to be used in hand with main function of phone.
    
  - name: os:linux
-   color: c7def8
+   color: 2ecc40
    description: occur on linux.
  - name: os:mac
-   color: c7def8
+   color: 2ecc40
    description: running on macOS..
  - name: os:windows
-   color: c7def8
+   color: 2ecc40
    description: run on Windows operating system
  - name: os:android
-   color: c7def8
+   color: 2ecc40
    description: using android software platform
  - name: os:ios
-   color: c7def8
+   color: 2ecc40
    description: using iOS software platform
    
  - name: inquiry:behavior
@@ -361,8 +361,3 @@ labels:
  - name: about:repository
    color: ccccff
    description: concerne repository organisation and management.
-
-#  - name: first-timers-only
-#    ## include the old name to rename an existing label
-#    oldname: Help Wanted
-
