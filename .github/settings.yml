@@ -57,11 +57,12 @@ repository:
    
 ## define Labels for Issues and Pull Requests
 labels:
-  - name: bug
+    
+  - name: bugZ
     color: CC0000
     description: An issue with the system.
     
-  - name: feature
+  - name: featureX
     color: 336699
     description: New functionality.
     
