@@ -256,5 +256,115 @@ labels:
  - name: report:exam
    color: f4f19c
    description: submit result of examination
+   
+ - name: about:language
+   color: cc317c
+   description: related to localization and translation (i18n)
+ - name: about:documentation
+   color: b4ea5d
+   description: Related to any type of documentation and manual.
+ - name: about:client
+   color: 0e8a16
+   description: concerning the local part of the software
+ - name: about:service
+   color: 59d683
+   description: concerning the distant server application
+ - name: about:account
+   color: 0052cc
+   description: concerning user,player/admin account(login,password authentication)
+ - name: about:install
+   color: fef2c0
+   description: Related to installation on different OS and building from source files
+ - name: about:startup
+   color: c2e0c6
+   description: concern starting process at launch time.
+ - name: about:network
+   color: f7c6c7
+   description: Related to network rfc,protocols conexion.
+ - name: about:api
+   color: c7def8
+   description: Related to Application Programming Interface.
+ - name: about:extention
+   color: fbca04
+   description: concern plugins addons and others extentions
+ - name: about:ui
+   color: 99cc00
+   description: Related to user interface and visual design.
+ - name: about:accessibility
+   color: dbc2f9
+   description: concern about for disabled people
+ - name: about:menu
+   color: c5def5
+   description: options in aplication menu interface
+ - name: about:save
+   color: fef2c0
+   description: Related to records files and backups
+ - name: about:open
+   color: fef2c0
+   description: related to load data files (e.g. opening file for editing)
+ - name: about:edit
+   color: c5def5
+   description: related to files editing
+ - name: about:settings
+   color: c5def5
+   description: about configuration and preferences
+ - name: about:files
+   color: 0052cc
+   description: store organisation for files and directories
+ - name: about:data
+   color: 0052cc
+   description: about not visible audible purpose data 
+ - name: about:image
+   color: 0052cc
+   description: about image pictures icons 
+ - name: about:texture
+   color: 0052cc
+   description: concerning image texture for 3d models
+ - name: about:sound
+   color: 0052cc
+   description: concerning audio fx noises
+ - name: about:animation
+   color: 0052cc
+   description: concerning animation and video movies
+ - name: about:3d
+   color: 0052cc
+   description: concerning 3d vector model shape
+ - name: about:logs
+   color: c5def5
+   description: concerning logs message notification outputs
+ - name: about:message
+   color: c5def5
+   description:  about diplayed notification
+ - name: about:physics
+   color: 0052cc
+   description: about physics  engine
+ - name: about:render
+   color: 0052cc
+   description: about graphic render engine
+ - name: about:ai
+   color: 0052cc
+   description: about artificial inteligencee
+ - name: about:pathfinder
+   color: 0052cc
+   description: about finding path in models
+ - name: about:gameplay
+   color: 0052cc
+   description: define goal and rules of the game,
+ - name: about:devlopement
+   color: 006400
+   description: the project road map and long term plan
+ - name: about:license
+   color: 006400
+   description: license atribution
+ - name: about:contribution
+   color: 006400
+   description: rules and guidlines for contributing.
+ - name: about:repository
+   color: e6e6e6
+   description: concerne repository organisation and management.
+
+#  - name: first-timers-only
+#    ## include the old name to rename an existing label
+#    oldname: Help Wanted
 
 
