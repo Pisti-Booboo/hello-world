@@ -58,9 +58,9 @@ repository:
 ## define Labels for Issues and Pull Requests
 labels:
    - name: referred
-     color: 007700
-     description:  pullrequest applyed on opened issue
+      color: 007700
+      description:  pullrequest applyed on opened issue
    - name: confirmed
-     color: 5319e7
-     description: reliable content, confirmed by many people ( can be reproduced if an issue)
+      color: 5319e7
+      description: reliable content, confirmed by many people ( can be reproduced if an issue)
 
