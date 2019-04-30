@@ -58,13 +58,17 @@ repository:
 ## define Labels for Issues and Pull Requests
 labels:
    
- - name: bug0
+ - name: bug2
    color: CC0000
    description: An issue with the system.
    
- - name: feature0
+ - name: feature2
    color: 336699
    description: New functionality.
+   
+ - name: gago2
+   color: 336699
+   description: null zero
    
  - name: first-timers-only
    # include the old name to rename an existing label
