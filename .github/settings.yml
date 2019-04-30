@@ -88,9 +88,3 @@ labels:
  - name: question-type
    color: cc317c
    description: need help or have something to ask, (e.g. how to do something)
- - name: feedback-type
-   color: 006b75
-   description: give tests and analyse that could help for project development.
- - name: bug-type
-   color: b71c1c
-   description: about unintended behaviours that need correction.
