@@ -60,23 +60,23 @@ repository:
 ## description: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 labels:
    
- - name: referred
-   color: ededed
-   description: pullrequest applyed on opened issue
- - name: confirmed
-   color: ededed
-   description: reliable content, confirmed by many people ( can be reproduced if an issue)
  - name: employed
-   color: ededed
+   color: 00ffff
    description: issues with some pullrequest dedicated about
- - name: duplication
-   color: bfdadc
-   description: duplicate an already existing issue that have been reported before.
+ - name: referred
+   color: 00ffff
+   description: pullrequest applyed on opened issue
  - name: filled
-   color: bfd4f2
+   color: 00aa00
    description: Issues reported on the good way. with all fields filled
+ - name: confirmed
+   color: 00ff00
+   description: reliable content, confirmed by many people ( can be reproduced if an issue)
+ - name: duplication
+   color: ffaa00
+   description: duplicate an already existing issue that have been reported before.
  - name: irrelevant
-   color: fbca04
+   color: aa0000
    description: unrelated improper inappropriate incongruous inept inapt.
    
  - name: type:newfeature
@@ -96,17 +96,17 @@ labels:
    description: about unintended behaviours that need correction.
    
  - name: priority:high
-   color: b60205
+   color: ff0000
    description: important critical Emergency, require urgent action.
  - name: priority:normal
-   color: cccccc
+   color: ffaa00
    description: concerning common issues.
  - name: priority:low
-   color: f9d0c4
+   color: ffff00
    description: trivial and minor topics, will be proced if nothing more serious.
    
  - name: user-level:novice
-   color: fc97b2
+   color: 7057ff
    description: issues made by beginners contributor
  - name: user-level:average
    color: 7057ff
@@ -141,20 +141,20 @@ labels:
    description: software language in use
    
  - name: version:2.4.3
-   color: 8ed9e2
+   color: fad8c7
    description: software Version concerned
  - name: version:1.2.3
-   color: 8ed9e2
+   color: fad8c7
    description: software Version concerned
  - name: version:beta
-   color: 8ed9e2
+   color: fad8c7
    description: software Version concerned
    
  - name: device:laptop
-   color: fad8c7
+   color: 59d683
    description: computers with keyboard suitable for use while traveling.(notebook)
  - name: device:desktop
-   color: fad8c7
+   color: 59d683
    description:  not portable computers, consists of seperate case,monitor,keyboard,mouse.
  - name: device:tablet
    color: 59d683
@@ -181,17 +181,17 @@ labels:
    description: using iOS software platform
    
  - name: inquiry:behavior
-   color: ff4400
+   color: e6e6e6
    description: asking for better understanding of fonctionality
  - name: inquiry:help
-   color: ff4400
+   color: e6e6e6
    description: asking help about unknow fonctionality
  - name: inquiry:howtodo
-   color: ff4400
+   color: e6e6e6
    description: request help for a proper use
    
  - name: trouble:crash
-   color: e11d21inquiry
+   color: e6e6e6
    description: reports premature software terminating.
  - name: trouble:freezing
    color: e6e6e6
@@ -254,53 +254,53 @@ labels:
    color: e6e6e6
    description: submit result of analyse
  - name: report:exam
-   color: f4f19c
+   color: e6e6e6
    description: submit result of examination
    
  - name: about:language
-   color: cc317c
+   color: c5def5
    description: related to localization and translation (i18n)
  - name: about:documentation
-   color: b4ea5d
+   color: c5def5
    description: Related to any type of documentation and manual.
  - name: about:client
-   color: 0e8a16
+   color: c5def5
    description: concerning the local part of the software
  - name: about:service
-   color: 59d683
+   color: c5def5
    description: concerning the distant server application
  - name: about:account
-   color: 0052cc
+   color: c5def5
    description: concerning user,player/admin account(login,password authentication)
  - name: about:install
-   color: fef2c0
+   color: c5def5
    description: Related to installation on different OS and building from source files
  - name: about:startup
-   color: c2e0c6
+   color: c5def5
    description: concern starting process at launch time.
  - name: about:network
-   color: f7c6c7
+   color: c5def5
    description: Related to network rfc,protocols conexion.
  - name: about:api
-   color: c7def8
+   color: c5def5
    description: Related to Application Programming Interface.
  - name: about:extention
-   color: fbca04
+   color: c5def5
    description: concern plugins addons and others extentions
  - name: about:ui
-   color: 99cc00
+   color: c5def5
    description: Related to user interface and visual design.
  - name: about:accessibility
-   color: dbc2f9
+   color: c5def5
    description: concern about for disabled people
  - name: about:menu
    color: c5def5
    description: options in aplication menu interface
  - name: about:save
-   color: fef2c0
+   color: c5def5
    description: Related to records files and backups
  - name: about:open
-   color: fef2c0
+   color: c5def5
    description: related to load data files (e.g. opening file for editing)
  - name: about:edit
    color: c5def5
@@ -309,25 +309,25 @@ labels:
    color: c5def5
    description: about configuration and preferences
  - name: about:files
-   color: 0052cc
+   color: c5def5
    description: store organisation for files and directories
  - name: about:data
-   color: 0052cc
+   color: c5def5
    description: about not visible audible purpose data 
  - name: about:image
-   color: 0052cc
+   color: c5def5
    description: about image pictures icons 
  - name: about:texture
-   color: 0052cc
+   color: c5def5
    description: concerning image texture for 3d models
  - name: about:sound
-   color: 0052cc
+   color: c5def5
    description: concerning audio fx noises
  - name: about:animation
-   color: 0052cc
+   color: c5def5
    description: concerning animation and video movies
  - name: about:3d
-   color: 0052cc
+   color: c5def5
    description: concerning 3d vector model shape
  - name: about:logs
    color: c5def5
@@ -336,35 +336,30 @@ labels:
    color: c5def5
    description:  about diplayed notification
  - name: about:physics
-   color: 0052cc
+   color: c5def5
    description: about physics  engine
  - name: about:render
-   color: 0052cc
+   color: c5def5
    description: about graphic render engine
  - name: about:ai
-   color: 0052cc
+   color: c5def5
    description: about artificial inteligencee
  - name: about:pathfinder
-   color: 0052cc
+   color: c5def5
    description: about finding path in models
  - name: about:gameplay
-   color: 0052cc
+   color: c5def5
    description: define goal and rules of the game,
  - name: about:devlopement
-   color: 006400
+   color: c5def5
    description: the project road map and long term plan
  - name: about:license
-   color: 006400
+   color: c5def5
    description: license atribution
  - name: about:contribution
-   color: 006400
+   color: c5def5
    description: rules and guidlines for contributing.
  - name: about:repository
-   color: e6e6e6
+   color: c5def5
    description: concerne repository organisation and management.
-
-#  - name: first-timers-only
-#    ## include the old name to rename an existing label
-#    oldname: Help Wanted
-
 
