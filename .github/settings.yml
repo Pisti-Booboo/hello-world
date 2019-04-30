@@ -59,39 +59,22 @@ repository:
 ##-name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ## description: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 labels:
+ - name: high-priority
+   color: b60205
+   description: important critical Emergency, require urgent action.
+ - name: normal-priority
+   color: cccccc
+   description:  concerning common issues.
+ - name: low-priority
+   color: f9d0c4
+   description:  trivial and minor topics, will be proced if nothing more serious.
    
- - name: referred
-   color: ededed
-   description: pullrequest applyed on opened issue
- - name: confirmed
-   color: ededed
-   description: reliable content, confirmed by many people ( can be reproduced if an issue)
- - name: employed
-   color: ededed
-   description: issues with some pullrequest dedicated about
- - name: duplication
-   color: bfdadc
-   description: duplicate an already existing issue that have been reported before.
- - name: filled
-   color: bfd4f2
-   description: Issues reported on the good way. with all fields filled
- - name: irrelevant
-   color: fbca04
-   description: unrelated improper inappropriate incongruous inept inapt.
-   
- - name: newfeature-type
-   color: 009800
-   description: asking for a new functionality to be added. 
- - name: enhancement-type
-   color: 1d76db
-   description: ask for modification of an existing feature.
- - name: question-type
-   color: cc317c
-   description: need help or have something to ask, (e.g. how to do something)
- - name: feedback-type
-   color: 006b75
-   description: give tests and analyse that could help for project development.
- - name: bug-type
-   color: b71c1c
-   description: about unintended behaviours that need correction.
-
+ - name: novice-user
+   color: fc97b2
+   description: issues made by beginners contributor
+ - name: average-user
+   color: 7057ff
+   description: issues made by intermediate contributor
+ - name: expert-user
+   color: 7057ff
+   description: issues made by high experienced contributor
