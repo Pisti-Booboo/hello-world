@@ -64,7 +64,4 @@ labels:
    - name: confirmed
      color: 5319e7
      description: reliable content, confirmed by many people ( can be reproduced if an issue)
-   - name: employed
-     color: ededed
-     description: issues with some pullrequest dedicated about
-     
+
