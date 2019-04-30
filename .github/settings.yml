@@ -67,7 +67,7 @@ labels:
    
  - name: gago3
    color: 336699
-   description: null zero
+   description: null 🐛 zero
    
  - name: first-timers-only
    # include the old name to rename an existing label
