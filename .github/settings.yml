@@ -58,14 +58,14 @@ repository:
 ## define Labels for Issues and Pull Requests
 labels:
    
- - name: bug3
+ - name: bug4
    color: CC0000
    description: An issue with the system.
- - name: feature3
+ - name: feature4
    color: 336699
    description: New functionality.
    
- - name: gago3
+ - name: gago4
    color: 336699
    description: null 🐛 zero
    
