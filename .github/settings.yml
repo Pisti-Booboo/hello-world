@@ -152,7 +152,7 @@ labels:
    description: about finding path in models
  - name: about:gameplay
    color: 0052cc
-   description: define goal and rules of the game,
+   description: define goal and rules of the game
  - name: about:devlopement
    color: 006400
    description: the project road map and long term plan
