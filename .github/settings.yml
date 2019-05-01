@@ -59,7 +59,10 @@ repository:
 ## name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ## description: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 labels:
-
+   
+ - name: fabala
+   color: ccccff
+   description: concerne test.
 
 
 ## define milestones for Issues and Pull Requests
