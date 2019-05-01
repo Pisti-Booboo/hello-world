@@ -60,10 +60,12 @@ repository:
 ## description: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 labels:
 
+
+
 ## define milestones for Issues and Pull Requests
 milestones:
  - title: beta-release
-   description: stage required for the the next release
+   description: required task for the next release
    ## state of the milestone can be `open` or `close`
    state: open
 
