@@ -1,4 +1,4 @@
- c pour tester
+Merge pour Testing
 
-blabla edition
+Blabla Edition
 .
