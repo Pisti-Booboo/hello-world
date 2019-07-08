@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Manual</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="English manual for this software">
+	<meta name="keywords" content="manual, english">
+	<meta name="author" content="Nz0">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<!-- <base href="https://www.w3schools.com/images/" target="_self"> -->
+	<!-- <meta http-equiv="Content-Style-Type" content="text/css"> -->
+	<link title="stil de nuit" href="../style/night_style.css" rel="stylesheet" type="text/css" >
+	<link title="stil de jour" href="../style/day_style.css" rel="alternate stylesheet" type="text/css" >
+	<link rel="icon" type="image/png" href="../../contents/icons/doc.png" > <!-- IE and Chrome not support svg format -->
+</head>
+
+
+
+<body>
+
+	<div id="logo">
+	<img longdesc="logo of the *name* software" alt="logo" title="Software name" src="../../contents/icons/guest.jpg">
+	</div>
+
+	<h1 id="grotit" >Unix Manual</h1>
+	
+	<hr id="separator">
+			
+	<div id="contnu" >
+
+
+
+
+<h2>SYNOPSIS</h2>
+
+template COMMANDS [OPTION] ... DIRECTORY
+ hello [-o|--out _file_] \[_dedication_]
+ hello [-h|--help -v --version]
+
+
+<h2>COMMANDS</h2>
+<p>Paramètres obligatoires ,indispensable pour demarer le programme, a placer apres le nom du programme.<p>
+
+-h, --help
+:   Prints brief usage information.	
+	Aide : afficher un résumé des commandes. Si vous les avez toutes oubliées,tâchez de vous souvenir de celle-là.
+	
+space
+	Afficher la taille de l’écran.
+
+
+
+OPTIONS
+-------
+Les options de la ligne de commande ne sont pas indispensable et peuvent etre sous forme courte - ou longue -- . 
+
+-v ou --verbose
+
+-h ou --help
+	afficher un message pour chaque répertoire créé
+
+-wp ou --window_position
+	2 nombres entier ,definissant la position en pixel de la fenetre du programe sur l’ecran a son demarage.
+
+-ws ou --window_size
+	2 nombres entier superieur a zero,definissant la largeur et la hauteur en pixel de la fenetre dans la quelle va s’afficher le programe a son demarage.
+
+-S ou --full_screen
+	signifi que l’affichage du programe doit oui ou non s’etaler sur tou l’ecran a son demarage
+
+-i ou --ppyfile
+	designe le fichier .py a traiter
+
+-n ou --names
+	nom associer aux fichiers de versions
+
+-d ou --directory
+	repertoire ou doivent etre stoker les fichiers
+
+-o, --output
+:   Outputs the greeting to the given filename.
+    The file must be an **open(2)**able and **write(2)**able file.
+
+-v, --version
+:   Prints the current version number.
+
+
+
+ENVIRONMENT
+===========
+Les variables d’environnement suivantes sont utilisé et affectent le programme, quand elles existent.
+	
+$MORE Les options préférées  peuvent être indiquées dans cette variable.
+
+$SHELL Interpréteur actuel (normalement positionné par l’interpréteur à la connexion).
+
+
+
+FILES
+=====
+Les fichiers suivant sont utilisés par le programme. 
+Par exemple pour la configuration au démarrage ou l’enregistremant des logs.
+
+- ~/.prog
+:   Per-user default dedication file.
+
+ - /etc/prog.conf
+:   Global default dedication file.
+
+
+
+-------------------------------------
+
+This part need to be added manually :
+
+
+ - NOTE
+Prints "Hello, _dedication_!" to the terminal. If no dedication is given, uses the default dedication.
+The default dedication is chosen by the following sequence:
+ 1. Using the environment variable *DEFAULT_HELLO_DEDICATION*
+ 2. Using the per-user configuration file, *~/.hellorc*
+ 3. Using the system-wide configuration file, */etc/hello.conf*
+ 4. Finally, using "world".
+ - Tutorials,examples,samples
+
+ - SEE ALSO
+nice(2) pour editer les fichier de conf
+renice(1) pour lancer en mode gtk <http://www.gnu.org/software/coreutils/nice> Documentation complète :
+aussi disponible localement à l’aide de la commande : info '(coreutils) nice invocation'
+ **hi(1)**, **hello(3)**, **hello.conf(4)**
+
+
+
+
+
+# generic manual (all device , all os)
+
+if .blend file let the people know they can open it with blender software and what version was used.
+
+if a lib ? specific to os and release.
+
+if a window app ? specific to os and release.
+
+if a prog ? specific to os  and release.
+
+
+
+<h2>Requirements</h2>
+
+cpu 3Ghz mini
+32Go RAM mini
+12Go space on hard drive
+
+This requires the following modules to be installed: glib,
+GTK+, gconf, gnome-desktop, gio, gdk-pixbuf, gnome-icon-theme, 
+shared-mime-info, and libart.
+
+You can get these packages from your favourite GNOME FTP mirror or at
+http://download.gnome.org/sources or from other sources where GNOME
+packages are distributed. shared-mime-info can be downloaded
+from the freedesktop.org website.
+
+
+Optional Libraries
+------------------
+
+'Eye of GNOME' supports the reading of EXIF information stored in
+images by digital cameras. To get this working, you need the optional
+libexif library. It is available at http://libexif.sourceforge.net.
+If you also want to preserve your EXIF data on save make sure you have
+libjpeg installed, including the development files.
+
+In order to make 'Eye of GNOME' work as a single instance application you'll
+need D-Bus installed in your system. You can get it from
+http://www.freedesktop.org/wiki/Software/dbus .
+
+Other optional dependencies include Little cms for color management
+and Exempi for XMP metadata reading.
+
+
+</div>
+
+</body>
+
+</html>
