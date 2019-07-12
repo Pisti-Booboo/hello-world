@@ -1,0 +1,158 @@
+/*
+N-z0
+fancy style
+css
+*/
+
+
+
+/* Applies to the entire body of the HTML document (except where overridden by more specific selectors). */
+* {
+	border-style: none;
+	margin: 0;
+	padding: 0;
+
+	font-size: 1em;
+	font-weight: normal;
+	font-family: bandal, sans-serif;
+	text-decoration: none;
+	color: rgb(255,255,255);
+
+	background-color: rgba(100,100,100,0.1);
+}
+
+body {
+	border-style: none; 
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-weight: normal;
+	font-family: bandal, sans-serif;
+	color: rgb(255,255,255);
+	background-color: rgb(0,0,0);
+}
+
+
+/* list */ 
+UL {}
+li { list-style-position: outside }
+OL {}
+DL {margin: 1em;}
+dt { font-weight: bold;  }
+dd { text-align: justify; text-indent: 3em; }
+
+
+/*  tables */
+table {	border-width: thick ; border-style: solid }
+CAPTION { font-weight: bold ; font-size: x-large }
+th { border-width: medium ; border-style: solid ; text-align: center ; font-weight: bold }
+td { border-width: thin ; border-style: solid ;	text-align: center }
+
+
+/* links */ 
+a:link {color: rgb(255,204,0);  }
+a:link IMG { border-style: solid; border-width: medium; border-color: rgb(255,204,0); background-color: rgb(255,204,0) }
+
+a:visited { color: rgb(153,153,153) }
+a:visited IMG { border-style: solid; border-width: medium; border-color: rgb(153,153,153); background-color: rgb(153,153,153) }
+
+a:focus { color: rgb(155,5,5) }
+a:focus IMG { border-style: solid; border-width: medium; border-color: rgb(155,5,5); background-color: rgb(155,5,5) }
+
+a:hover {color: rgb(155,5,5) }
+a:hover IMG { border-style: solid; border-width: medium; border-color: rgb(155,5,5); background-color: rgb(155,5,5) }
+
+a:active { color: rgb(255,0,0) }
+a:active IMG { border-style: solid; border-width: medium; border-color: rgb(255,0,0); background-color: rgb(255,0,0) }
+
+
+
+
+
+
+
+
+
+
+/* header */
+
+header { margin: 1em; }
+header img{ }
+
+header section { display: flex; justify-content: space-between; }
+header #license img{ height: 1em; width: auto;  }
+header #version img{ height: 1em; width: auto;  }
+
+header #logo img{ height: 10em; width: auto; margin: 1em auto 1em auto ; display: block; }
+
+/* 
+float: both; margin-left: auto; margin-right: auto;
+ margin-right: 0; 
+ 
+ */
+
+
+header h1 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+header p {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
+
+
+/* ### article ### */
+
+article { 	margin: 1em; width: auto; }
+
+article h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+article p {
+	text-indent: 1em;
+}
+
+
+
+/* ### footer ### */
+
+footer {	margin: 1em; display: flex; justify-content:space-between; }
+
+footer img{height: 3em; width: auto; margin: 1em; }
+
+/*
+footer A:link IMG { height: 3em; width: 10%; border-style: solid ; border-color: rgb(255,204,0) ; background-color: rgb(255,204,0); }
+
+footer A:visited IMG {	border-style: solid ; border-color: rgb(153,153,153) ; background-color: rgb(153,153,153) }
+
+footer A:focus IMG { border-style: solid ; border-color: rgb(155,5,5) ; background-color: rgb(155,5,5) }
+
+footer A:hover IMG { border-style: solid ; border-color: rgb(155,5,5) ; background-color: rgb(155,5,5) }
+
+footer A:active IMG { border-style: solid ; border-color: rgb(255,0,0) ; background-color: rgb(255,0,0) }
+*/
+
+
+
+
+
+
+/* others */
+
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass { color: red; }
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: green; }
+

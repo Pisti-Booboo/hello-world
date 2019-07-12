@@ -1,0 +1,31 @@
+BODY {
+	text-align: left ;
+}
+
+.ilustration {
+	float: left ;
+}
+
+CAPTION {
+	text-align: left ;
+
+}
+
+
+
+dt A:link IMG {
+	float: left ;
+}
+dt A:visited IMG {
+	float: left ;
+}
+dt A:active IMG {
+	float: left ;
+}
+
+
+/* ############################## 
+#mercis h2 {
+	text-align: left ;
+}
+*/

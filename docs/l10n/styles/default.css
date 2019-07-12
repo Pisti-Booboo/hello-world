@@ -1,0 +1,31 @@
+/*
+N-z0
+default style
+css
+*/
+
+/* Applies to the entire body of the HTML document (except where overridden by more specific selectors). */
+* {
+	border-style: none;
+	margin: 0;
+	padding: 0;
+
+	font-size: 1em;
+	font-weight: normal;
+	font-family: bandal, sans-serif;
+	text-decoration: none;
+	color: rgb(255,255,255);
+
+	background-color: rgba(100,100,100,0.1);
+}
+
+body {
+	border-style: none; 
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-weight: normal;
+	font-family: bandal, sans-serif;
+	color: rgb(255,255,255);
+	background-color: rgb(0,0,0);
+}

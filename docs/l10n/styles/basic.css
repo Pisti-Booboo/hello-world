@@ -1,0 +1,14 @@
+/*
+N-z0
+basic style
+css
+*/
+
+/* reduce images size */
+header #license img{ height: 1em; width: auto;  }
+header #version img{ height: 1em; width: auto;  }
+
+header #logo img{ height: 10em; width: auto; }
+
+footer img{height: 3em; width: auto; }
+
