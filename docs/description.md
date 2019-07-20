@@ -5,8 +5,8 @@
 ## ℹ️ Description
 
 ### 🚩 Intro
-A short summary presentation of what this project software is.  
-*(if the project name is an acronym or abbreviation, give full meaning)*  
+A short summary presentation of what this software is.  
+*(if the name is an acronym or abbreviation, give full meaning)*  
 
 
 ### 📋 Glossary
@@ -22,20 +22,21 @@ A short summary presentation of what this project software is.
 
 ###  ℹ️ Details
 *long Description about:*
- - Who can be interested by this  project
- - how it work
  - the goal of this project
+ - Who can be interested by this  project
  - what benefit from using it
+ - how it work
 
 
 ### 📝 Note
 *Extra additional notifications.*
- - Do not shutdown your computer while using this Software  
-	It will provoke the lost of all your unsaved data.
  - The software block and freeze when all keys are pressed at same time.  
 	Do Not press all the keyboard keys at same time.
+ - Do not shutdown your computer while using this Software  
+	It will provoke the lost of all your unsaved data.
  - Do not use a hammer for trying to fix any bugs  
 	It will lead to this software destruction and may damage your device. 
+
 
 
 ## 🔗 Links
