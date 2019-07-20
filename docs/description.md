@@ -51,10 +51,10 @@ A short summary presentation of what this software is.
 
 
 ## 📜 History
- - Origin:  
-	The projet was initiate by [Mark Borello](mailto:mbo@msn.com) for [Frikaia.com](https://www.frikaia.com) but the main creators and author is [Nizi Maza](https://github.com/nizi) .
+ - Origin:
+	- The projet was initiate by [Mark Borello](mailto:mbo@msn.com) for [Frikaia.com](https://www.frikaia.com) but the main creators and author is [Nizi Maza](https://github.com/nizi) .
 
- - Development:  
+ - Development:
 	- In 2010  [Damien ford](mailto:damfo@gmail.com) continued the project with the help of [Tim Devens](https://github.com/timdev)  for the management.
 	- The project moved on [Gitswitch](https://gitswitch.com) last summer
 	- And now  [Microhard](https://www.microhard.com) is the official publisher
