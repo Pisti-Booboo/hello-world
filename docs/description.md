@@ -27,10 +27,10 @@ A short summary presentation of what this software is.
 ## 📝 Note
  - The software block and freeze when all keys are pressed at same time.  
 	Do Not press all the keyboard keys at same time.
- - if the computer shutdown while using this Software  
-	all the unsaved data will lost.
+ - If the computer shutdown while using this Software  
+	All the unsaved data will be lost.
  - Do not use a hammer for trying to fix any bugs  
-	It leads to software destruction and may damage your device. 
+	It leads to software destruction and may damage your device.
 
 
 ## 👉 References:
