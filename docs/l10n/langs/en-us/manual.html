@@ -1,187 +1,100 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en-US">
 <head>
-	<title>Manual</title>
 	<meta charset="UTF-8">
+	<title>Manual</title>
 	<meta name="description" content="English manual for this software">
 	<meta name="keywords" content="manual, english">
-	<meta name="author" content="Nz0">
+	<meta name="author" content="N=z0">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-	<!-- <base href="https://www.w3schools.com/images/" target="_self"> -->
-	<!-- <meta http-equiv="Content-Style-Type" content="text/css"> -->
-	<link title="stil de nuit" href="../style/night_style.css" rel="stylesheet" type="text/css" >
-	<link title="stil de jour" href="../style/day_style.css" rel="alternate stylesheet" type="text/css" >
-	<link rel="icon" type="image/png" href="../../contents/icons/doc.png" > <!-- IE and Chrome not support svg format -->
+	<base href="../../../">
+	<link rel="stylesheet" href="l10n/styles/basic.css" type="text/css" >
+	<link rel="stylesheet" href="l10n/styles/night.css" type="text/css" title="night style" >
+	<link rel="alternate stylesheet" href="l10n/styles/day.css" type="text/css" title="day style" >
+	<link rel="icon" type="image/png" href="contents/logo/logo.png" > <!-- IE and Chrome not support svg format -->
 </head>
-
-
-
 <body>
 
-	<div id="logo">
-	<img longdesc="logo of the *name* software" alt="logo" title="Software name" src="../../contents/icons/guest.jpg">
-	</div>
-
-	<h1 id="grotit" >Unix Manual</h1>
+	<header>
+		<div>
+			<a id="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode" type="text/html" rel="license"><img src="contents/logo/cc0.svg" alt="badge" title="documentation license"></a>
+			<a id="version" href="https://semver.org/" type="text/html" rel="help"><img src="contents/badges/version.svg" alt="badge" title="sofware version"></a>
+		</div>
+		<figure>
+			<a id="logo" href="l10n/langs/en-us/index.html" type="text/html" rel="prev"><img src="contents/logo/logo.svg" alt="logo" title="Go back to the index"></a>
+			<figcaption>SoftwareName FancySlogan / ex: jQuery — the new JavaScript Wave</figcaption>
+		</figure>
+	</header>
 	
-	<hr id="separator">
-			
-	<div id="contnu" >
+	<article>
+		<h1>📖 Manual</h1>
+		<p>Instructions about how to use.</p>
+		<!-- this is a generic manual,(for all device , all os) -->
 
+		<section>
+			<h2>Requirements</h2>
+			<dl>
+				<dt>device :</dt>
+				<dd>Can be any computer or a mobile phone(with enough specific RAM,CPU,hard drive space) OR speakers and color screen OR a 3d printer.</dd>
+				
+				<dt>OS:</dt>
+				<dd>This page of manual should be adapted to a specific operating system(pc/mac/Linux/android), But some specificiation about the os version can be necessary.</dd>
+				
+				<dt>software:</dt>
+				<dd>if for using this project some additional software need to be installed, ex: blender for .blend files, a web server for a website or a text viewer.</dd>
+			</dl>
+		</section>
 
+		<section>
+			<h2>Instructions</h2>
+			<ol>
+				<li>unpackage unzip</li>
+				<li>build install</li>
+				<li>connect plug-in</li>
+				<li>turn-on start</li>
+				<li>the way to open files of this project with specific softwares</li>
+			</ol>
+		</section>
 
+		<section>
+			<h2>Options</h2>
+			<ul>
+				<li>website can have selectable css styles</li>
+				<li>model3d texture mode switchable</li>
+				<li>images with different variation</li>
+				<li>database old version also available</li>
+				<li>name list of others alternate softwares able to open the set of files</li>
+			</ul>
+		</section>
 
-<h2>SYNOPSIS</h2>
+		<section>
+			<h2>Contents</h2>
+			<ul>
+				<li>path and type of textures files packed</li>
+				<li>pathname and kind of data included</li>
+				<li>path and format of sounds files</li>
+				<li>place of the directory containing text files</li>
+			</ul>
+		</section>
 
-template COMMANDS [OPTION] ... DIRECTORY
- hello [-o|--out _file_] \[_dedication_]
- hello [-h|--help -v --version]
+		<section>
+			<h2>Notes</h2>
+			<ul>
+				<li>some svg version are not compatible with all svg editor</li>
+				<li>csv named files are actually in tsv format.</li>
+				<li>blender older than 3.4 cannot open properly the given .blend files</li>
+				<li>overheat risk if in use for more than 10hours</li>
+				<li>weblinks to www.baboo.net are curently not working,(but a fix is expected)</li>
+			</ul>
+		</section>
+	</article>
 
-
-<h2>COMMANDS</h2>
-<p>Paramètres obligatoires ,indispensable pour demarer le programme, a placer apres le nom du programme.<p>
-
--h, --help
-:   Prints brief usage information.	
-	Aide : afficher un résumé des commandes. Si vous les avez toutes oubliées,tâchez de vous souvenir de celle-là.
-	
-space
-	Afficher la taille de l’écran.
-
-
-
-OPTIONS
--------
-Les options de la ligne de commande ne sont pas indispensable et peuvent etre sous forme courte - ou longue -- . 
-
--v ou --verbose
-
--h ou --help
-	afficher un message pour chaque répertoire créé
-
--wp ou --window_position
-	2 nombres entier ,definissant la position en pixel de la fenetre du programe sur l’ecran a son demarage.
-
--ws ou --window_size
-	2 nombres entier superieur a zero,definissant la largeur et la hauteur en pixel de la fenetre dans la quelle va s’afficher le programe a son demarage.
-
--S ou --full_screen
-	signifi que l’affichage du programe doit oui ou non s’etaler sur tou l’ecran a son demarage
-
--i ou --ppyfile
-	designe le fichier .py a traiter
-
--n ou --names
-	nom associer aux fichiers de versions
-
--d ou --directory
-	repertoire ou doivent etre stoker les fichiers
-
--o, --output
-:   Outputs the greeting to the given filename.
-    The file must be an **open(2)**able and **write(2)**able file.
-
--v, --version
-:   Prints the current version number.
-
-
-
-ENVIRONMENT
-===========
-Les variables d’environnement suivantes sont utilisé et affectent le programme, quand elles existent.
-	
-$MORE Les options préférées  peuvent être indiquées dans cette variable.
-
-$SHELL Interpréteur actuel (normalement positionné par l’interpréteur à la connexion).
-
-
-
-FILES
-=====
-Les fichiers suivant sont utilisés par le programme. 
-Par exemple pour la configuration au démarrage ou l’enregistremant des logs.
-
-- ~/.prog
-:   Per-user default dedication file.
-
- - /etc/prog.conf
-:   Global default dedication file.
-
-
-
--------------------------------------
-
-This part need to be added manually :
-
-
- - NOTE
-Prints "Hello, _dedication_!" to the terminal. If no dedication is given, uses the default dedication.
-The default dedication is chosen by the following sequence:
- 1. Using the environment variable *DEFAULT_HELLO_DEDICATION*
- 2. Using the per-user configuration file, *~/.hellorc*
- 3. Using the system-wide configuration file, */etc/hello.conf*
- 4. Finally, using "world".
- - Tutorials,examples,samples
-
- - SEE ALSO
-nice(2) pour editer les fichier de conf
-renice(1) pour lancer en mode gtk <http://www.gnu.org/software/coreutils/nice> Documentation complète :
-aussi disponible localement à l’aide de la commande : info '(coreutils) nice invocation'
- **hi(1)**, **hello(3)**, **hello.conf(4)**
-
-
-
-
-
-# generic manual (all device , all os)
-
-if .blend file let the people know they can open it with blender software and what version was used.
-
-if a lib ? specific to os and release.
-
-if a window app ? specific to os and release.
-
-if a prog ? specific to os  and release.
-
-
-
-<h2>Requirements</h2>
-
-cpu 3Ghz mini
-32Go RAM mini
-12Go space on hard drive
-
-This requires the following modules to be installed: glib,
-GTK+, gconf, gnome-desktop, gio, gdk-pixbuf, gnome-icon-theme, 
-shared-mime-info, and libart.
-
-You can get these packages from your favourite GNOME FTP mirror or at
-http://download.gnome.org/sources or from other sources where GNOME
-packages are distributed. shared-mime-info can be downloaded
-from the freedesktop.org website.
-
-
-Optional Libraries
-------------------
-
-'Eye of GNOME' supports the reading of EXIF information stored in
-images by digital cameras. To get this working, you need the optional
-libexif library. It is available at http://libexif.sourceforge.net.
-If you also want to preserve your EXIF data on save make sure you have
-libjpeg installed, including the development files.
-
-In order to make 'Eye of GNOME' work as a single instance application you'll
-need D-Bus installed in your system. You can get it from
-http://www.freedesktop.org/wiki/Software/dbus .
-
-Other optional dependencies include Little cms for color management
-and Exempi for XMP metadata reading.
-
-
-</div>
+	<footer>
+		<a href="https://www.w3.org/Style/CSS/" type="text/html" rel="external"><img src="contents/logo/css3.svg" alt="logo" title="CSS3"></a>
+		<a href="https://html.spec.whatwg.org/" type="text/html" rel="external"><img src="contents/logo/html5.svg" alt="logo" title="HTML5"></a>
+		<a href="https://svgwg.org/" type="text/html" rel="external"><img src="contents/logo/svg.svg" alt="logo" title="SVG"></a>
+		<a href="https://validator.w3.org/" type="text/html" rel="external"><img src="contents/logo/w3c.svg" alt="logo" title="W3C"></a>
+	</footer>
 
 </body>
-
 </html>

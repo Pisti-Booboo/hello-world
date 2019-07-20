@@ -1,14 +1,142 @@
 /*
-N-z0
-basic style
 css
+basic style
+Brian Hooks
+2010-2020
 */
 
-/* reduce images size */
-header #license img{ height: 1em; width: auto;  }
-header #version img{ height: 1em; width: auto;  }
 
-header #logo img{ height: 10em; width: auto; }
 
-footer img{height: 3em; width: auto; }
+/* ### Applies to the entire HTML document (except where overridden by more specific selectors). ### */
+* {
+	border-style: none;
+	border-width: medium;
+	margin: 0 ;
+	padding: 0 ;
+	white-space: normal;
+	tab-size: 3;
+	-moz-tab-size: 3; /* Firefox */
+	font-size: 1em;
+	font-weight: normal;
+	font-family: bandal, sans-serif;
+	text-decoration: none;
+}
+
+body { }
+
+a IMG { border-style: solid;  }
+
+
+
+/* ### header ### */
+header { margin: 1em; }
+
+header div { display: flex; justify-content: space-between;  }
+header div img { height: 1em; width: auto; }
+
+header figure img { height: 10em; width: auto; margin: 1em auto 1em auto; display: block; }
+header figure figcaption { font-size: 1.75em; font-weight: bold; text-align: center; }
+
+
+
+/* ### article ### */
+article { margin: 1em;  }
+article section { margin: 1em;  }
+article nav { margin: 1em; }
+
+
+article h1 {
+	font-size: 2.0em;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 1.6em;
+	margin-bottom: 0.6em;
+}
+article h2 {
+	font-size: 1.6em;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+article h3 {
+	font-size: 1.4em;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 1.4em;
+	margin-bottom: 0.4em;
+}
+article h4 {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 1.3em;
+	margin-bottom: 0.3em;
+}
+article h5 {
+	font-size: 1.25em;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 1.2em;
+	margin-bottom: 0.2em;
+}
+article h6 {
+	font-size: 1.225em;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 1.4em;
+	margin-bottom: 0.1em;
+}
+
+
+article p { text-align: justify; margin-left: 1em;}
+
+
+article table { border-width: thick ; border-style: solid; width: 100%; border-spacing: 0; border-collapse: collapse;}
+article caption { font-weight: bold ; font-size: 1.5em }
+article th { border-width: medium ; border-style: solid ; text-align: center ; font-weight: bold; padding: 0.3em; }
+article td { border-width: thin ; border-style: solid ;	text-align: center; padding: 0.1em; }
+
+
+article ul { list-style-type: disc; list-style-position: inside; margin: 1em;}
+article ol { list-style-type: decimal; list-style-position: inside; margin: 1em;}
+article li { text-align: justify; }
+
+article dl { margin: 1em; }
+article dt { font-weight: bold; text-indent: 1em; margin-top: 1em; }
+article dt a { font-weight: bold; text-indent: 1em; margin-top: 1em; }
+article dd { text-align: justify; text-indent: 3em; }
+article dd ul { margin-top: 0.3em;}
+article dd ol { margin-top: 0.3em;}
+article dd dl { margin-top: 0.3em;}
+article dd dt { font-weight: bold; margin-top: 0.3em; text-indent: 2em; }
+article dd dd { text-align: justify; text-indent: 4em; }
+
+article dl.dico { padding-bottom: 0.1em; }
+article .dico dt { clear: left; }
+article .dico dt img { float: left; height: auto; width: 3em; margin-bottom: 1em;}
+article .dico dt div.blank { float: left; height: 3em; width: 3em; margin-bottom: 1em; }
+article .dico dd { text-indent: 0em; margin-left: 4em; margin-bottom: 1em;}
+
+article .repo li { list-style-type: none; margin-bottom: 1em;  }
+article .repo li img { height: auto; width: 3em; vertical-align: middle; margin-right: 1em;}
+article .repo li div.blank { height: 3em; width: 3em; vertical-align: middle; margin-right: 1em; display: inline-block; }
+
+
+article figure { margin: 1em; display: table; }
+article figure img { height: 10em; width: auto; }
+article figure figcaption { text-align: center;  display: table-caption; caption-side: bottom ; }
+article div.gallery { margin: 1em; display: flex; justify-content: space-around; flex-wrap: wrap; }
+
+article .diagram { height: 30em; width: auto; }
+article .graph { height: 10em; width: auto; }
+article .charts { height: 15em; width: auto; }
+article #sf { height: 40em; width: auto; }
+article #fs { height: auto; width: 100%; }
+
+
+
+/* ### footer ### */
+footer { margin: 1em; display: flex; justify-content: space-between; }
+footer img { height: 3em; width: auto; margin: 1em; }
 

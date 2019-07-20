@@ -1,0 +1,48 @@
+/*
+css
+day style
+Brian Hooks
+2010-2020
+*/
+
+
+
+* {
+	color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.03);
+}
+
+html {
+  background-color: rgb(255,255,255); 
+}
+
+body { }
+
+
+
+/* ### header ### */
+header {   }
+
+
+
+/* ### article ### */
+a:link {color: rgb(255,120,120);  }
+a:link IMG { border-color: rgb(255,120,120); background-color: rgb(255,120,120) }
+
+a:visited { color: rgb(120,100,100) }
+a:visited IMG { border-color: rgb(120,100,100); background-color: rgb(120,100,100) }
+
+a:focus { color: rgb(255,0,0) }
+a:focus IMG { border-color: rgb(255,0,0); background-color: rgb(255,0,0) }
+
+a:hover {color: rgb(255,0,0) }
+a:hover IMG { border-color: rgb(255,0,0); background-color: rgb(255,0,0) }
+
+a:active { color: rgb(155,5,5) }
+a:active IMG { border-color: rgb(155,5,5); background-color: rgb(155,5,5) }
+
+
+
+/* ### footer ### */
+footer {  }
+

@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="diagramSvg"
+   version="1.1"
+   sodipodi:docname="files.svg"
+   width="1600"
+   height="400"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata210">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0.78431373"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="708"
+     id="namedview208"
+     showgrid="false"
+     inkscape:zoom="0.417193"
+     inkscape:cx="814.10504"
+     inkscape:cy="294.2807"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="diagramSvg"
+     inkscape:pagecheckerboard="true" />
+  <style
+     id="stylesheet">text {
+  text-anchor: middle;
+  font-size: 1em;
+}
+
+rect {
+  fill: linen;
+  stroke: black;
+  opacity: 1;
+  stroke-width: 0.3;
+}
+
+line {
+  stroke: black;
+  opacity: 0.30;
+  stroke-width: 1;
+}
+  </style>
+  <defs
+     id="defs6">
+    <marker
+       id="arrowHead"
+       viewBox="-10 -5 10 10"
+       markerUnits="strokeWidth"
+       markerWidth="6"
+       markerHeight="30"
+       orient="auto">
+      <path
+         d="M -10,-5 0,0 -10,5 Z"
+         id="path3"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <rect
+     style="opacity:1;fill:#feffff;fill-opacity:0.39215687;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     id="rect920"
+     width="1600.0132"
+     height="399.9646"
+     x="-0.013497604"
+     y="0.0099517256" />
+  <g
+     id="diagramGroup"
+     transform="matrix(0.95517962,0,0,1.2923006,38.720797,33.794914)">
+    <rect
+       x="791"
+       y="0"
+       width="141"
+       height="34"
+       id="rect8"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="862"
+       y="0"
+       id="text12"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="862"
+         dy="21.391304"
+         id="tspan10">software</tspan>
+    </text>
+    <rect
+       x="116"
+       y="73"
+       width="141"
+       height="34"
+       id="rect14"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="187"
+       y="73"
+       id="text18"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="187"
+         dy="21.391304"
+         id="tspan16">config</tspan>
+    </text>
+    <line
+       x1="815"
+       y1="34"
+       x2="187"
+       y2="73"
+       id="line20"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="389"
+       y="73"
+       width="141"
+       height="34"
+       id="rect22"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="460"
+       y="73"
+       id="text26"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="460"
+         dy="21.391304"
+         id="tspan24">data</tspan>
+    </text>
+    <line
+       x1="838"
+       y1="34"
+       x2="460"
+       y2="73"
+       id="line28"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="807"
+       y="73"
+       width="141"
+       height="34"
+       id="rect30"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="877"
+       y="73"
+       id="text34"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="877"
+         dy="21.391304"
+         id="tspan32">license</tspan>
+    </text>
+    <line
+       x1="862"
+       y1="34"
+       x2="877"
+       y2="73"
+       id="line36"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="1224"
+       y="73"
+       width="141"
+       height="34"
+       id="rect38"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1295"
+       y="73"
+       id="text42"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1295"
+         dy="21.391304"
+         id="tspan40">docs</tspan>
+    </text>
+    <line
+       x1="885"
+       y1="34"
+       x2="1295"
+       y2="73"
+       id="line44"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="1419"
+       y="73"
+       width="141"
+       height="34"
+       id="rect46"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1490"
+       y="73"
+       id="text50"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1490"
+         dy="21.391304"
+         id="tspan48">tools</tspan>
+    </text>
+    <line
+       x1="909"
+       y1="34"
+       x2="1490"
+       y2="73"
+       id="line52"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="0"
+       y="146"
+       width="141"
+       height="34"
+       id="rect54"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="70"
+       y="146"
+       id="text58"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="70"
+         dy="21.391304"
+         id="tspan56">logo</tspan>
+    </text>
+    <line
+       x1="409"
+       y1="107"
+       x2="70"
+       y2="146"
+       id="line60"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="155"
+       y="146"
+       width="141"
+       height="34"
+       id="rect62"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="226"
+       y="146"
+       id="text66"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="226"
+         dy="21.391304"
+         id="tspan64">sounds</tspan>
+    </text>
+    <line
+       x1="429"
+       y1="107"
+       x2="226"
+       y2="146"
+       id="line68"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="311"
+       y="146"
+       width="141"
+       height="34"
+       id="rect70"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="382"
+       y="146"
+       id="text74"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="382"
+         dy="21.391304"
+         id="tspan72">icons</tspan>
+    </text>
+    <line
+       x1="450"
+       y1="107"
+       x2="382"
+       y2="146"
+       id="line76"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="467"
+       y="146"
+       width="141"
+       height="34"
+       id="rect78"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="538"
+       y="146"
+       id="text82"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="538"
+         dy="21.391304"
+         id="tspan80">database</tspan>
+    </text>
+    <line
+       x1="470"
+       y1="107"
+       x2="538"
+       y2="146"
+       id="line84"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="623"
+       y="146"
+       width="141"
+       height="34"
+       id="rect86"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="693"
+       y="146"
+       id="text90"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="693"
+         dy="21.391304"
+         id="tspan88">images</tspan>
+    </text>
+    <line
+       x1="490"
+       y1="107"
+       x2="693"
+       y2="146"
+       id="line92"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="778"
+       y="146"
+       width="141"
+       height="34"
+       id="rect94"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="849"
+       y="146"
+       id="text98"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="849"
+         dy="21.391304"
+         id="tspan96">models</tspan>
+    </text>
+    <line
+       x1="510"
+       y1="107"
+       x2="849"
+       y2="146"
+       id="line100"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="991"
+       y="146"
+       width="141"
+       height="34"
+       id="rect102"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1061"
+       y="146"
+       id="text106"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1061"
+         dy="21.391304"
+         id="tspan104">index</tspan>
+    </text>
+    <line
+       x1="1253"
+       y1="107"
+       x2="1061"
+       y2="146"
+       id="line108"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="1146"
+       y="146"
+       width="141"
+       height="34"
+       id="rect110"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1217"
+       y="146"
+       id="text114"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1217"
+         dy="21.391304"
+         id="tspan112">description</tspan>
+    </text>
+    <line
+       x1="1281"
+       y1="107"
+       x2="1217"
+       y2="146"
+       id="line116"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="1302"
+       y="146"
+       width="141"
+       height="34"
+       id="rect118"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1373"
+       y="146"
+       id="text122"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1373"
+         dy="21.391304"
+         id="tspan120">contents</tspan>
+    </text>
+    <line
+       x1="1309"
+       y1="107"
+       x2="1373"
+       y2="146"
+       id="line124"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="1458"
+       y="146"
+       width="141"
+       height="34"
+       id="rect126"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1529"
+       y="146"
+       id="text130"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1529"
+         dy="21.391304"
+         id="tspan128">l10n</tspan>
+    </text>
+    <line
+       x1="1338"
+       y1="107"
+       x2="1529"
+       y2="146"
+       id="line132"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="155"
+       y="219"
+       width="141"
+       height="34"
+       id="rect134"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="226"
+       y="219"
+       id="text138"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="226"
+         dy="21.391304"
+         id="tspan136">screenshots</tspan>
+    </text>
+    <line
+       x1="1320"
+       y1="180"
+       x2="226"
+       y2="219"
+       id="line140"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="311"
+       y="219"
+       width="141"
+       height="34"
+       id="rect142"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="382"
+       y="219"
+       id="text146"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="382"
+         dy="21.391304"
+         id="tspan144">logo</tspan>
+    </text>
+    <line
+       x1="1338"
+       y1="180"
+       x2="382"
+       y2="219"
+       id="line148"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="467"
+       y="219"
+       width="141"
+       height="34"
+       id="rect150"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="538"
+       y="219"
+       id="text154"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="538"
+         dy="21.391304"
+         id="tspan152">badges</tspan>
+    </text>
+    <line
+       x1="1355"
+       y1="180"
+       x2="538"
+       y2="219"
+       id="line156"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="623"
+       y="219"
+       width="141"
+       height="34"
+       id="rect158"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="693"
+       y="219"
+       id="text162"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="693"
+         dy="21.391304"
+         id="tspan160">flags</tspan>
+    </text>
+    <line
+       x1="1373"
+       y1="180"
+       x2="693"
+       y2="219"
+       id="line164"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="778"
+       y="219"
+       width="141"
+       height="34"
+       id="rect166"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="849"
+       y="219"
+       id="text170"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="849"
+         dy="21.391304"
+         id="tspan168">icons</tspan>
+    </text>
+    <line
+       x1="1391"
+       y1="180"
+       x2="849"
+       y2="219"
+       id="line172"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="934"
+       y="219"
+       width="141"
+       height="34"
+       id="rect174"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1005"
+       y="219"
+       id="text178"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1005"
+         dy="21.391304"
+         id="tspan176">diagrams</tspan>
+    </text>
+    <line
+       x1="1408"
+       y1="180"
+       x2="1005"
+       y2="219"
+       id="line180"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="1090"
+       y="219"
+       width="141"
+       height="34"
+       id="rect182"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1161"
+       y="219"
+       id="text186"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1161"
+         dy="21.391304"
+         id="tspan184">pictures</tspan>
+    </text>
+    <line
+       x1="1426"
+       y1="180"
+       x2="1161"
+       y2="219"
+       id="line188"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="1302"
+       y="219"
+       width="141"
+       height="34"
+       id="rect190"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1373"
+       y="219"
+       id="text194"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1373"
+         dy="21.391304"
+         id="tspan192">styles</tspan>
+    </text>
+    <line
+       x1="1505"
+       y1="180"
+       x2="1373"
+       y2="219"
+       id="line196"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+    <rect
+       x="1458"
+       y="219"
+       width="141"
+       height="34"
+       id="rect198"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.30000001" />
+    <text
+       x="1529"
+       y="219"
+       id="text202"
+       style="font-size:12px;text-anchor:middle">
+      <tspan
+         x="1529"
+         dy="21.391304"
+         id="tspan200">langs</tspan>
+    </text>
+    <line
+       x1="1552"
+       y1="180"
+       x2="1529"
+       y2="219"
+       id="line204"
+       style="opacity:0.3;stroke:#000000;stroke-width:1;marker-end:url(#arrowHead)" />
+  </g>
+</svg>
